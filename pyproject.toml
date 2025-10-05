@@ -6,13 +6,15 @@ readme = "README.md"
 requires-python = ">=3.9,<3.12"
 dependencies = [
     "jupyter>=1.1.1",
+    "llvmlite==0.42.0",
     "matplotlib>=3.9.4",
     "nltk>=3.9.1",
-    "numpy>=2.0.2",
+    "numba==0.59.1",
+    "numpy==1.26.4",
     "pami>=2025.7.3.1",
     "pandas>=2.3.2",
     "plotly>=6.3.0",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
-    "umap-learn>=0.5.9.post2",
+    "umap-learn==0.5.5",
 ]
